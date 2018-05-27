@@ -9,7 +9,7 @@
 
 Everything should flow through a [single project](https://github.com/orgs/futureag/projects). The project is arranged to look like this:
 
-[pic here not sure how to add yet]
+[[https://github.com/futureag/blog/blob/master/wiki/workflow/projectboard.png|alt=projectboard]]
 
 * **Idea Stockpile** - aka, backlog. This is the dumping ground for everything.
 * **Groomed** - once a given card has been actually discussed, fleshed out, and scoped out by all the relevant parties, it can move into this column.
@@ -48,6 +48,6 @@ A properly groomed ticket must include:
 # Opening a Sprint
 To open a sprint, we'll [create new milestones](https://github.com/futureag/ui/milestones) in relevant repos.
 
-[milestone picture]
+[[https://github.com/futureag/blog/blob/master/wiki/workflow/milestones.png|alt=milestones]]
 
 Then we link the issues in the sprint (which are also in the To-Do column). Each sprint will have its own set of milestones, and then git will pretty much track everything else for us automatically.
