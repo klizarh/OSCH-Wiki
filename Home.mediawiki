@@ -55,24 +55,24 @@ When in doubt: **Follow the written documentation as it is updated to current BO
 8. Get involved on the forums, show us your build and ask questions: [https://docs.google.com/document/d/1NidizfnrUlMdpoob8cxGYLlP9Pt9y-u-Z_eImV1MtcI/edit Frequently Asked Questions]
 
 9. [[MVP_Hacking |Hacking the MVP]] (Python code architecture)
-   Brain
-   Reservoir
-   [[mvp_1.0_UI | User Interface]]
+* Brain
+* Reservoir
+* [[mvp_1.0_UI | User Interface]]
  
 ===== Additional Help =====
-  [https://github.com/futureag/mvp | code in Github]
-  [[MVP Web Access]]
-  [[MVP_Debugging | Testing and Debugging]]
-  [https://forum.openag.media.mit.edu/t/difficulty-with-mvp-system-test-si7021-failure/3104?u=webb.peter Difficulty With MVP Hardware & Software]
-  [http://forum.openag.media.mit.edu/t/mvp-product-design/1893 MVP - Product Design Thread]
-  [http://forum.openag.media.mit.edu/t/300-food-computer/2343 $300 Food Computer Thread]
-  [http://forum.openag.media.mit.edu/t/networking-mvps-to-simplify-firewall-issues/2305?u=webb.peter Networking MVPs to solve for Firewall Issues]
-  [http://forum.openag.media.mit.edu/t/troubleshooting-mvp-build/2384 Troubleshooting MVP Build Thread]
-  [http://forum.openag.media.mit.edu/t/libraries-food-computers-plix-build-public-library-innovation-exchange-at-mit-media-lab/2895?u=webb.peter Akron Public Library]
-  [https://forum.openag.media.mit.edu/t/is-there-a-way-to-integrate-greenhouse-and-food-computers/3146?u=webb.peter Food Computer Greenhouse Integration]
-  [https://forum.openag.media.mit.edu/t/brooklyn-update-replicating-pfcs/2474 Brooklyn MVP at AgTechX using Open Agriculture Supply's pre-assembled "MVP Power Strip"]
-  [https://forum.openag.media.mit.edu/t/mvp-dashboard-in-nodered/3172 MVP UI Development] - Node-Red implementation as beta test for UI development.
-  [https://forum.openag.media.mit.edu/t/mvp-build-in-the-six/3366?u=webb.peter MVP Build in the Six]
+* [https://github.com/futureag/mvp | code in Github]
+* [[MVP Web Access]]
+* [[MVP_Debugging | Testing and Debugging]]
+* [https://forum.openag.media.mit.edu/t/difficulty-with-mvp-system-test-si7021-failure/3104?u=webb.peter Difficulty With MVP Hardware & Software]
+* [http://forum.openag.media.mit.edu/t/mvp-product-design/1893 MVP - Product Design Thread]
+* [http://forum.openag.media.mit.edu/t/300-food-computer/2343 $300 Food Computer Thread]
+* [http://forum.openag.media.mit.edu/t/networking-mvps-to-simplify-firewall-issues/2305?u=webb.peter Networking MVPs to solve for Firewall Issues]
+* [http://forum.openag.media.mit.edu/t/troubleshooting-mvp-build/2384 Troubleshooting MVP Build Thread]
+* [http://forum.openag.media.mit.edu/t/libraries-food-computers-plix-build-public-library-innovation-exchange-at-mit-media-lab/2895?u=webb.peter Akron Public Library]
+* [https://forum.openag.media.mit.edu/t/is-there-a-way-to-integrate-greenhouse-and-food-computers/3146?u=webb.peter Food Computer Greenhouse Integration]
+* [https://forum.openag.media.mit.edu/t/brooklyn-update-replicating-pfcs/2474 Brooklyn MVP at AgTechX using Open Agriculture Supply's pre-assembled "MVP Power Strip"]
+* [https://forum.openag.media.mit.edu/t/mvp-dashboard-in-nodered/3172 MVP UI Development] - Node-Red implementation as beta test for UI development.
+* [https://forum.openag.media.mit.edu/t/mvp-build-in-the-six/3366?u=webb.peter MVP Build in the Six]
 
 ===== Alternate Builds and Materials =====
 These builds are not the standard MVP, but alternative designs from the community. Listings here are for information without any implied recommendation or evaluation.
