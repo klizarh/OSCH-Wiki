@@ -1,8 +1,8 @@
-====== MVP 1.0 ======
+= MVP 1.0 =
 
-The MVP PFC (Minimal Viable Product) is a minimalist [[food_computer_2:getting_started|Personal Food Computer]] developed by OpenAg Community members on the [[http://forum.openag.media.mit.edu/t/mvp-community-development/1892 | OpenAg Forum]], in response to a call placed by MIT Open Agriculture Initiative's Director Caleb Harper to build the "first truly community derived device" for OpenAg.
+The MVP PFC (Minimal Viable Product) is a minimalist [[food_computer_2:getting_started|Personal Food Computer]] developed by OpenAg Community members on the [[https://forum.openag.media.mit.edu/t/mvp-community-development/1892 | OpenAg Forum]], in response to a call placed by MIT Open Agriculture Initiative's Director Caleb Harper to build the "first truly community derived device" for OpenAg.
 
-{{::mvp.jpg?nolink&200|}}
+
 
 For a quick overview, see the [[https://www.youtube.com/watch?v=yGGVXu1yMfQ&feature=youtu.be | promo video]]
 
@@ -17,7 +17,7 @@ The MVP PFC has the following main parts:
 The standard enclosure is a PVC and foil box.
 ===== Brain =====
 
-The brain is based around a Raspberry Pi and Python code, with cron used as the scheduler.  The latest code is located in [[https://github.com/webbhm/OpenAg-MVP | Github]].
+The brain is based around a Raspberry Pi and Python code, with cron used as the scheduler.  The latest code is located in [[https://github.com/futureag/mvp | Github]].
 
 Sensor data is currently logged to a flat file on the Pi's SD card, as well as optionally being stored in CouchDB (on the Raspberry). By using CouchDB, the data is available over the internet.  Work is in process to modify the existing PFC (Personal Food Computer) UI to access the MVP data.  While both the MVP and PFC use CouchDB, they use different databases with different data structures.
 
