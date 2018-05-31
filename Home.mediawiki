@@ -60,9 +60,9 @@ When in doubt: **Follow the written documentation as it is updated to current BO
 * [[mvp_1.0_UI | User Interface]]
  
 ===== Additional Help =====
-* [https://github.com/futureag/mvp | code in Github]
+* [https://github.com/futureag/mvp code in Github]
 * [[MVP Web Access]]
-* [[MVP_Debugging | Testing and Debugging]]
+* [[MVP_Debugging Testing and Debugging]]
 * [https://forum.openag.media.mit.edu/t/difficulty-with-mvp-system-test-si7021-failure/3104?u=webb.peter Difficulty With MVP Hardware & Software]
 * [http://forum.openag.media.mit.edu/t/mvp-product-design/1893 MVP - Product Design Thread]
 * [http://forum.openag.media.mit.edu/t/300-food-computer/2343 $300 Food Computer Thread]
@@ -76,14 +76,16 @@ When in doubt: **Follow the written documentation as it is updated to current BO
 
 ===== Alternate Builds and Materials =====
 These builds are not the standard MVP, but alternative designs from the community. Listings here are for information without any implied recommendation or evaluation.
-  * [h ttps://wiki.openag.media.mit.edu/contributors/webbhm MVP V1 Build Instructions] using a cardboard box and mylar liner
-  * [https://www.openagriculturesupply.com/product-page/open-agriculture-supply-mvp-food-computer-kit"MVP Power Strip"] - Open Agriculture Supply pre-assembled kit based on MVP.
-  * [contributors:yusuf:mvp_pfc Yusuf's MVP PFC Outline].
-  *[http://forum.openag.media.mit.edu/t/300-mvp-food-computer-variant-my-build/2687 Food Rack] - Another nice design.  An expansion of the MVP into a multi-reservoir rack system.
-  * [https://forum.openag.media.mit.edu/t/mvp-alpha-release-bill-of-materials/2019/3 Alpha release of MVP] Early release prior to finishing design.
+* [h ttps://wiki.openag.media.mit.edu/contributors/webbhm MVP V1 Build Instructions] using a cardboard box and mylar liner
+* [https://www.openagriculturesupply.com/product-page/open-agriculture-supply-mvp-food-computer-kit"MVP Power Strip"] - Open Agriculture Supply pre-assembled kit based on MVP.
+* [contributors:yusuf:mvp_pfc Yusuf's MVP PFC Outline].
+*[http://forum.openag.media.mit.edu/t/300-mvp-food-computer-variant-my-build/2687 Food Rack] - Another nice design.  An expansion of the MVP into a multi-reservoir rack system.
+* [https://forum.openag.media.mit.edu/t/mvp-alpha-release-bill-of-materials/2019/3 Alpha release of MVP] Early release prior to finishing design.
+
 ===== MVPs in Schools =====
-  * [https://forum.openag.media.mit.edu/t/growing-plants-in-space-marsfarm-curriculum/3056 MARSfarm Curriculum.]
-  * [https://forum.openag.media.mit.edu/c/education Food Computers in Education]
-  * [https://wiki.openag.media.mit.edu/education Classroom Resources on OpenAg EDU Wiki]
+* [https://forum.openag.media.mit.edu/t/growing-plants-in-space-marsfarm-curriculum/3056 MARSfarm Curriculum.]
+* [https://forum.openag.media.mit.edu/c/education Food Computers in Education]
+* [https://wiki.openag.media.mit.edu/education Classroom Resources on OpenAg EDU Wiki]
+
 ====MVP and MarsFarm in the News====
-  * [http://news.stlpublicradio.org/post/st-louis-startup-marsfarm-works-students-build-computers-grow-food#stream/0 St Louis Public Radio]
+* [http://news.stlpublicradio.org/post/st-louis-startup-marsfarm-works-students-build-computers-grow-food#stream/0 St Louis Public Radio]
