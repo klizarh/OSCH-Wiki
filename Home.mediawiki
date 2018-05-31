@@ -31,6 +31,8 @@ An [https://learn.adafruit.com/adafruit-si7021-temperature-plus-humidity-sensor/
 
 The current system is hydroponic, the reservoir is a bus tub with an air-pump and stone.  Plants are started in rockwool and placed into net pots in the reservior lid.  All chemistry (EC and pH) are done manually.  There is active research in converting the MVP into an airoponic system.  While it will cost a bit more (for the pump) it will eliminate the need for much of the chemistry.
 
+==[Data_Model Data Model]
+
 == Resources ==
 Check out our promo video for a quick summary of how to get started
 
