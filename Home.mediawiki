@@ -12,9 +12,9 @@ The OpenAg community's goal is to build something for around $300 (US) that can 
 * Temperature
 
 The MVP PFC has the following main parts:
-===== Enclosure =====
+== Enclosure ==
 The standard enclosure is a PVC and foil box.
-===== Brain =====
+== Brain ==
 
 The brain is based around a Raspberry Pi and Python code, with cron used as the scheduler.  The latest code is located in [https://github.com/futureag/mvp | Github].
 
@@ -27,10 +27,11 @@ Lighting is standardized on the GE Brit Stik LED (100w equiv, daylight).  We are
 There are two fans.  One is always on for circulation, and the other is thermostat controled for exhaust ventilation.
 
 An [https://learn.adafruit.com/adafruit-si7021-temperature-plus-humidity-sensor/overview Adafruit SI7021] temperature/humidity sensor and USB camera are the only standard sensors; though there are open GPIO pins and two relays available for future or custom expansion.
-===== Reservoir =====
+== Reservoir ==
 
 The current system is hydroponic, the reservoir is a bus tub with an air-pump and stone.  Plants are started in rockwool and placed into net pots in the reservior lid.  All chemistry (EC and pH) are done manually.  There is active research in converting the MVP into an airoponic system.  While it will cost a bit more (for the pump) it will eliminate the need for much of the chemistry.
-===== Resources =====
+
+== Resources ==
 Check out our promo video for a quick summary of how to get started
 
 1. Assemble supplies
@@ -59,7 +60,7 @@ When in doubt: **Follow the written documentation as it is updated to current BO
 * Reservoir
 * [[mvp_1.0_UI | User Interface]]
  
-===== Additional Help =====
+== Additional Help ==
 * [https://github.com/futureag/mvp code in Github]
 * [[MVP Web Access]]
 * [[MVP_Debugging | Testing and Debugging]]
@@ -74,7 +75,7 @@ When in doubt: **Follow the written documentation as it is updated to current BO
 * [https://forum.openag.media.mit.edu/t/mvp-dashboard-in-nodered/3172 MVP UI Development] - Node-Red implementation as beta test for UI development.
 * [https://forum.openag.media.mit.edu/t/mvp-build-in-the-six/3366?u=webb.peter MVP Build in the Six]
 
-===== Alternate Builds and Materials =====
+== Alternate Builds and Materials ==
 These builds are not the standard MVP, but alternative designs from the community. Listings here are for information without any implied recommendation or evaluation.
 * [https://wiki.openag.media.mit.edu/contributors/webbhm MVP V1 Build Instructions] using a cardboard box and mylar liner
 * [https://www.openagriculturesupply.com/product-page/open-agriculture-supply-mvp-food-computer-kit"MVP Power Strip"] - Open Agriculture Supply pre-assembled kit based on MVP.
@@ -82,10 +83,10 @@ These builds are not the standard MVP, but alternative designs from the communit
 *[http://forum.openag.media.mit.edu/t/300-mvp-food-computer-variant-my-build/2687 Food Rack] - Another nice design.  An expansion of the MVP into a multi-reservoir rack system.
 * [https://forum.openag.media.mit.edu/t/mvp-alpha-release-bill-of-materials/2019/3 Alpha release of MVP] Early release prior to finishing design.
 
-===== MVPs in Schools =====
+== MVPs in Schools ==
 * [https://forum.openag.media.mit.edu/t/growing-plants-in-space-marsfarm-curriculum/3056 MARSfarm Curriculum.]
 * [https://forum.openag.media.mit.edu/c/education Food Computers in Education]
 * [https://wiki.openag.media.mit.edu/education Classroom Resources on OpenAg EDU Wiki]
 
-====MVP and MarsFarm in the News====
+==MVP and MarsFarm in the News==
 * [http://news.stlpublicradio.org/post/st-louis-startup-marsfarm-works-students-build-computers-grow-food#stream/0 St Louis Public Radio]
