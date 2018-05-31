@@ -62,7 +62,7 @@ When in doubt: **Follow the written documentation as it is updated to current BO
 ===== Additional Help =====
 * [https://github.com/futureag/mvp code in Github]
 * [[MVP Web Access]]
-* [[MVP_Debugging Testing and Debugging]]
+* [[MVP_Debugging | Testing and Debugging]]
 * [https://forum.openag.media.mit.edu/t/difficulty-with-mvp-system-test-si7021-failure/3104?u=webb.peter Difficulty With MVP Hardware & Software]
 * [http://forum.openag.media.mit.edu/t/mvp-product-design/1893 MVP - Product Design Thread]
 * [http://forum.openag.media.mit.edu/t/300-food-computer/2343 $300 Food Computer Thread]
