@@ -32,7 +32,7 @@ An [https://learn.adafruit.com/adafruit-si7021-temperature-plus-humidity-sensor/
 The current system is hydroponic, the reservoir is a bus tub with an air-pump and stone.  Plants are started in rockwool and placed into net pots in the reservior lid.  All chemistry (EC and pH) are done manually.  There is active research in converting the MVP into an airoponic system.  While it will cost a bit more (for the pump) it will eliminate the need for much of the chemistry.
 ===== Resources =====
 Check out our promo video for a quick summary of how to get started
-  
+
 1. Assemble supplies
 Order parts from the [https://docs.google.com/spreadsheets/d/11uVNtVRwgM3ghLS6GWti2Bnrr1LLZmgzxPSaRIAi854/edit?usp=sharing Bill of Materials (BOM)] Verify you have all required tools on second tab of BOM, if you are missing any, order them.
 
@@ -44,40 +44,36 @@ When in doubt: **Follow the written documentation as it is updated to current BO
 3. Build Enclosure: [https://www.youtube.com/watch?v=SxPp5gJZcic Watch Enclosure Subassembly Video]
 [https://docs.google.com/presentation/d/1TVVPPh8ymDziJstBPThQpdcQynRyJOo_DGR2CHAkSU0/edit?usp=sharing Enclosure Documentation]
 
-
 4. Build Top Panel or "Brain" assembly: [https://www.youtube.com/watch?v=46w__wCbC6I Watch "Brain" Subassembly Video] [https://docs.google.com/presentation/d/1bXkGeTNTy66-_mO14JqDCGnvB5E5y3JXhQ38yVxRPP0/edit?usp=sharing Brain Documentation]
-
 
 5. Build MVP Software Stack on SD card & Raspberry Pi: [https://docs.google.com/presentation/d/1YNNcF4PwlKjqAmt4XgMx4NBQcAw279qRtd0rp2uKJSg/edit?usp=sharing Software Documentation] [https://github.com/webbhm/OpenAg-MVP-II#architecture Software Installation Guide on GitHub]
 
-
 6. Complete Final Assembly [https://docs.google.com/presentation/d/1h53Dlnwfk4txx3D7bPjipJmu_femCNZAWq2onlkEO0c/edit?usp=sharing Final Assembly Documentation]\
 
-
 7. Germinate seeds in Rockwool, balance your PH, and get growing! [https://docs.google.com/presentation/d/1XIZdzpvIR4x0E80TgR2NLbtaRzQr0QnXLJ8R8A7IE9g/edit?usp=sharing Operational Documentation]
-
 
 8. Get involved on the forums, show us your build and ask questions: [https://docs.google.com/document/d/1NidizfnrUlMdpoob8cxGYLlP9Pt9y-u-Z_eImV1MtcI/edit Frequently Asked Questions]
 
 9. [[MVP_Hacking |Hacking the MVP]] (Python code architecture)
-Brain
-Reservoir
-[[mvp_1.0_UI | User Interface]]
+   Brain
+   Reservoir
+   [[mvp_1.0_UI | User Interface]]
  
 ===== Additional Help =====
-  * [https://github.com/futureag/mvp | code in Github]
-  * [[MVP Web Access]]
-  * [[MVP_Debugging | Testing and Debugging]]
-  * [https://forum.openag.media.mit.edu/t/difficulty-with-mvp-system-test-si7021-failure/3104?u=webb.peter Difficulty With MVP Hardware & Software]
-  * [http://forum.openag.media.mit.edu/t/mvp-product-design/1893 MVP - Product Design Thread]
-  * [http://forum.openag.media.mit.edu/t/300-food-computer/2343 $300 Food Computer Thread]
-  * [http://forum.openag.media.mit.edu/t/networking-mvps-to-simplify-firewall-issues/2305?u=webb.peter Networking MVPs to solve for Firewall Issues]
-  * [http://forum.openag.media.mit.edu/t/troubleshooting-mvp-build/2384 Troubleshooting MVP Build Thread]
-  * [http://forum.openag.media.mit.edu/t/libraries-food-computers-plix-build-public-library-innovation-exchange-at-mit-media-lab/2895?u=webb.peter Akron Public Library]
-  * [https://forum.openag.media.mit.edu/t/is-there-a-way-to-integrate-greenhouse-and-food-computers/3146?u=webb.peter Food Computer Greenhouse Integration]
-  * [https://forum.openag.media.mit.edu/t/brooklyn-update-replicating-pfcs/2474 Brooklyn MVP at AgTechX using Open Agriculture Supply's pre-assembled "MVP Power Strip"]
-  * [https://forum.openag.media.mit.edu/t/mvp-dashboard-in-nodered/3172 MVP UI Development] - Node-Red implementation as beta test for UI development.
-  * [https://forum.openag.media.mit.edu/t/mvp-build-in-the-six/3366?u=webb.peter MVP Build in the Six]
+  [https://github.com/futureag/mvp | code in Github]
+  [[MVP Web Access]]
+  [[MVP_Debugging | Testing and Debugging]]
+  [https://forum.openag.media.mit.edu/t/difficulty-with-mvp-system-test-si7021-failure/3104?u=webb.peter Difficulty With MVP Hardware & Software]
+  [http://forum.openag.media.mit.edu/t/mvp-product-design/1893 MVP - Product Design Thread]
+  [http://forum.openag.media.mit.edu/t/300-food-computer/2343 $300 Food Computer Thread]
+  [http://forum.openag.media.mit.edu/t/networking-mvps-to-simplify-firewall-issues/2305?u=webb.peter Networking MVPs to solve for Firewall Issues]
+  [http://forum.openag.media.mit.edu/t/troubleshooting-mvp-build/2384 Troubleshooting MVP Build Thread]
+  [http://forum.openag.media.mit.edu/t/libraries-food-computers-plix-build-public-library-innovation-exchange-at-mit-media-lab/2895?u=webb.peter Akron Public Library]
+  [https://forum.openag.media.mit.edu/t/is-there-a-way-to-integrate-greenhouse-and-food-computers/3146?u=webb.peter Food Computer Greenhouse Integration]
+  [https://forum.openag.media.mit.edu/t/brooklyn-update-replicating-pfcs/2474 Brooklyn MVP at AgTechX using Open Agriculture Supply's pre-assembled "MVP Power Strip"]
+  [https://forum.openag.media.mit.edu/t/mvp-dashboard-in-nodered/3172 MVP UI Development] - Node-Red implementation as beta test for UI development.
+  [https://forum.openag.media.mit.edu/t/mvp-build-in-the-six/3366?u=webb.peter MVP Build in the Six]
+
 ===== Alternate Builds and Materials =====
 These builds are not the standard MVP, but alternative designs from the community. Listings here are for information without any implied recommendation or evaluation.
   * [h ttps://wiki.openag.media.mit.edu/contributors/webbhm MVP V1 Build Instructions] using a cardboard box and mylar liner
