@@ -1,4 +1,4 @@
-== Testing and Debugging==
+= Testing and Debugging=
 The MVP comes with a validation script which exercises the main components of the code.  It can be run at any time to confirm that things are set up correctly and running properly.  If you encounter problems (things stop working), running the validation script is always a good first step in finding the problem.
 In MVP 1.0 it can be tested via:
 > bash ~/OpenAg-MVP/setup/Validate.sh
@@ -15,7 +15,7 @@ You should also be able to click (or double click) on a python file to open in i
 These will give you the error details, which should point you toward what needs to be fixed.
 Though the code is not robust (having a lot of error handling), because it is simple and has been running for a while, you should encounter few (if any) actual code problems.  Most problems have to do with the setup and configuration, often the problems are with typing errors in cron (which is not in the validation script).
 
-==== Test Steps ====
+== Test Steps ==
 === Directory Tests ===
 The first step is to make sure the main directories are in place, that you didn't copy things from Github to the wrong location.
 If you encounter an error here, re-copy the Github download to the correct location.  See the [[https://github.com/webbhm/OpenAg-MVP/blob/master/README.md|README.md]] for correct deployment.
