@@ -60,9 +60,9 @@ When in doubt: **Follow the written documentation as it is updated to current BO
 8. Get involved on the forums, show us your build and ask questions: [https://docs.google.com/document/d/1NidizfnrUlMdpoob8cxGYLlP9Pt9y-u-Z_eImV1MtcI/edit Frequently Asked Questions]
 
 9. [[MVP_Hacking |Hacking the MVP]] (Python code architecture)
-  * Brain
-  * Reservoir
-  * [[mvp_1.0_UI | User Interface]]
+Brain
+Reservoir
+[[mvp_1.0_UI | User Interface]]
  
 ===== Additional Help =====
   * [https://github.com/futureag/mvp | code in Github]
