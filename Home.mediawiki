@@ -7,12 +7,11 @@ The MVP PFC (Minimal Viable Product) is a minimalist [[food_computer_2:getting_s
 For a quick overview, see the [https://www.youtube.com/watch?v=yGGVXu1yMfQ&feature=youtu.be promo video]
 
 The OpenAg community's goal is to build something for around $300 (US) that can produce significant research results with minimal investment and skill.  The MVP PFC allows for control and research around:
-  * Nutrients
-  * Light (photoperiod)
-  * Temperature
+  Nutrients
+  Light (photoperiod)
+  Temperature
 
 The MVP PFC has the following main parts:
-  * Enclosure
 ===== Enclosure =====
 The standard enclosure is a PVC and foil box.
 ===== Brain =====
@@ -33,7 +32,6 @@ An [https://learn.adafruit.com/adafruit-si7021-temperature-plus-humidity-sensor/
 The current system is hydroponic, the reservoir is a bus tub with an air-pump and stone.  Plants are started in rockwool and placed into net pots in the reservior lid.  All chemistry (EC and pH) are done manually.  There is active research in converting the MVP into an airoponic system.  While it will cost a bit more (for the pump) it will eliminate the need for much of the chemistry.
 ===== Resources =====
 Check out our promo video for a quick summary of how to get started
-
   
 1. Assemble supplies
 Order parts from the [https://docs.google.com/spreadsheets/d/11uVNtVRwgM3ghLS6GWti2Bnrr1LLZmgzxPSaRIAi854/edit?usp=sharing Bill of Materials (BOM)] Verify you have all required tools on second tab of BOM, if you are missing any, order them.
