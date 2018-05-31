@@ -1,4 +1,4 @@
-====== Testing and Debugging======
+== Testing and Debugging==
 The MVP comes with a validation script which exercises the main components of the code.  It can be run at any time to confirm that things are set up correctly and running properly.  If you encounter problems (things stop working), running the validation script is always a good first step in finding the problem.
 In MVP 1.0 it can be tested via:
 > bash ~/OpenAg-MVP/setup/Validate.sh
