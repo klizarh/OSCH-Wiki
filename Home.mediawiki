@@ -76,7 +76,7 @@ When in doubt: **Follow the written documentation as it is updated to current BO
 
 ===== Alternate Builds and Materials =====
 These builds are not the standard MVP, but alternative designs from the community. Listings here are for information without any implied recommendation or evaluation.
-* [h ttps://wiki.openag.media.mit.edu/contributors/webbhm MVP V1 Build Instructions] using a cardboard box and mylar liner
+* [https://wiki.openag.media.mit.edu/contributors/webbhm MVP V1 Build Instructions] using a cardboard box and mylar liner
 * [https://www.openagriculturesupply.com/product-page/open-agriculture-supply-mvp-food-computer-kit"MVP Power Strip"] - Open Agriculture Supply pre-assembled kit based on MVP.
 * [contributors:yusuf:mvp_pfc Yusuf's MVP PFC Outline].
 *[http://forum.openag.media.mit.edu/t/300-mvp-food-computer-variant-my-build/2687 Food Rack] - Another nice design.  An expansion of the MVP into a multi-reservoir rack system.
