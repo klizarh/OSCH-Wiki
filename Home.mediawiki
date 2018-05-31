@@ -1,10 +1,10 @@
 = MVP 1.0 =
 
-The MVP PFC (Minimal Viable Product) is a minimalist [[food_computer_2:getting_started|Personal Food Computer]] developed by OpenAg Community members on the [https://forum.openag.media.mit.edu/t/mvp-community-development/1892 | OpenAg Forum], in response to a call placed by MIT Open Agriculture Initiative's Director Caleb Harper to build the "first truly community derived device" for OpenAg.
+The MVP PFC (Minimal Viable Product) is a minimalist [[food_computer_2:getting_started|Personal Food Computer]] developed by OpenAg Community members on the [https://forum.openag.media.mit.edu/t/mvp-community-development/1892 OpenAg Forum], in response to a call placed by MIT Open Agriculture Initiative's Director Caleb Harper to build the "first truly community derived device" for OpenAg.
 
 
 
-For a quick overview, see the [https://www.youtube.com/watch?v=yGGVXu1yMfQ&feature=youtu.be | promo video]
+For a quick overview, see the [https://www.youtube.com/watch?v=yGGVXu1yMfQ&feature=youtu.be promo video]
 
 The OpenAg community's goal is to build something for around $300 (US) that can produce significant research results with minimal investment and skill.  The MVP PFC allows for control and research around:
   * Nutrients
@@ -17,7 +17,7 @@ The MVP PFC has the following main parts:
 The standard enclosure is a PVC and foil box.
 ===== Brain =====
 
-The brain is based around a Raspberry Pi and Python code, with cron used as the scheduler.  The latest code is located in [[https://github.com/futureag/mvp | Github]].
+The brain is based around a Raspberry Pi and Python code, with cron used as the scheduler.  The latest code is located in [https://github.com/futureag/mvp | Github].
 
 Sensor data is currently logged to a flat file on the Pi's SD card, as well as optionally being stored in CouchDB (on the Raspberry). By using CouchDB, the data is available over the internet.  Work is in process to modify the existing PFC (Personal Food Computer) UI to access the MVP data.  While both the MVP and PFC use CouchDB, they use different databases with different data structures.
 
@@ -27,7 +27,7 @@ Lighting is standardized on the GE Brit Stik LED (100w equiv, daylight).  We are
 
 There are two fans.  One is always on for circulation, and the other is thermostat controled for exhaust ventilation.
 
-An [[https://learn.adafruit.com/adafruit-si7021-temperature-plus-humidity-sensor/overview | Adafruit SI7021]] temperature/humidity sensor and USB camera are the only standard sensors; though there are open GPIO pins and two relays available for future or custom expansion.
+An [https://learn.adafruit.com/adafruit-si7021-temperature-plus-humidity-sensor/overview Adafruit SI7021] temperature/humidity sensor and USB camera are the only standard sensors; though there are open GPIO pins and two relays available for future or custom expansion.
 ===== Reservoir =====
 
 The current system is hydroponic, the reservoir is a bus tub with an air-pump and stone.  Plants are started in rockwool and placed into net pots in the reservior lid.  All chemistry (EC and pH) are done manually.  There is active research in converting the MVP into an airoponic system.  While it will cost a bit more (for the pump) it will eliminate the need for much of the chemistry.
@@ -36,30 +36,30 @@ Check out our promo video for a quick summary of how to get started
 
   
 1. Assemble supplies
-Order parts from the [[https://docs.google.com/spreadsheets/d/11uVNtVRwgM3ghLS6GWti2Bnrr1LLZmgzxPSaRIAi854/edit?usp=sharing | Bill of Materials (BOM)]] Verify you have all required tools on second tab of BOM, if you are missing any, order them.
+Order parts from the [https://docs.google.com/spreadsheets/d/11uVNtVRwgM3ghLS6GWti2Bnrr1LLZmgzxPSaRIAi854/edit?usp=sharing Bill of Materials (BOM)] Verify you have all required tools on second tab of BOM, if you are missing any, order them.
 
-2. Machine parts into ready to assemble Prepared Parts: [[https://docs.google.com/presentation/d/1-RhLp98lgGOMHJ7TVwpK3idU7WbcJTbuMNNjlbJ5TME/edit?usp=sharing | Prepared Parts Documentation]]
+2. Machine parts into ready to assemble Prepared Parts: [https://docs.google.com/presentation/d/1-RhLp98lgGOMHJ7TVwpK3idU7WbcJTbuMNNjlbJ5TME/edit?usp=sharing Prepared Parts Documentation]
 
 Be aware there are some inconsistencies between video and written documentation. 
 When in doubt: **Follow the written documentation as it is updated to current BOM.**
 
-3. Build Enclosure: [[https://www.youtube.com/watch?v=SxPp5gJZcic | Watch Enclosure Subassembly Video]]
-[[https://docs.google.com/presentation/d/1TVVPPh8ymDziJstBPThQpdcQynRyJOo_DGR2CHAkSU0/edit?usp=sharing | Enclosure Documentation]]
+3. Build Enclosure: [https://www.youtube.com/watch?v=SxPp5gJZcic Watch Enclosure Subassembly Video]
+[https://docs.google.com/presentation/d/1TVVPPh8ymDziJstBPThQpdcQynRyJOo_DGR2CHAkSU0/edit?usp=sharing Enclosure Documentation]
 
 
-4. Build Top Panel or "Brain" assembly: [[https://www.youtube.com/watch?v=46w__wCbC6I | Watch "Brain" Subassembly Video]] [[https://docs.google.com/presentation/d/1bXkGeTNTy66-_mO14JqDCGnvB5E5y3JXhQ38yVxRPP0/edit?usp=sharing | Brain Documentation]]
+4. Build Top Panel or "Brain" assembly: [https://www.youtube.com/watch?v=46w__wCbC6I Watch "Brain" Subassembly Video] [https://docs.google.com/presentation/d/1bXkGeTNTy66-_mO14JqDCGnvB5E5y3JXhQ38yVxRPP0/edit?usp=sharing Brain Documentation]
 
 
-5. Build MVP Software Stack on SD card & Raspberry Pi: [[https://docs.google.com/presentation/d/1YNNcF4PwlKjqAmt4XgMx4NBQcAw279qRtd0rp2uKJSg/edit?usp=sharing | Software Documentation]] [[https://github.com/webbhm/OpenAg-MVP-II#architecture | Software Installation Guide on GitHub]]
+5. Build MVP Software Stack on SD card & Raspberry Pi: [https://docs.google.com/presentation/d/1YNNcF4PwlKjqAmt4XgMx4NBQcAw279qRtd0rp2uKJSg/edit?usp=sharing Software Documentation] [https://github.com/webbhm/OpenAg-MVP-II#architecture Software Installation Guide on GitHub]
 
 
-6. Complete Final Assembly [[https://docs.google.com/presentation/d/1h53Dlnwfk4txx3D7bPjipJmu_femCNZAWq2onlkEO0c/edit?usp=sharing | Final Assembly Documentation]]
+6. Complete Final Assembly [https://docs.google.com/presentation/d/1h53Dlnwfk4txx3D7bPjipJmu_femCNZAWq2onlkEO0c/edit?usp=sharing Final Assembly Documentation]\
 
 
-7. Germinate seeds in Rockwool, balance your PH, and get growing! [[https://docs.google.com/presentation/d/1XIZdzpvIR4x0E80TgR2NLbtaRzQr0QnXLJ8R8A7IE9g/edit?usp=sharing | Operational Documentation]]
+7. Germinate seeds in Rockwool, balance your PH, and get growing! [https://docs.google.com/presentation/d/1XIZdzpvIR4x0E80TgR2NLbtaRzQr0QnXLJ8R8A7IE9g/edit?usp=sharing Operational Documentation]
 
 
-8. Get involved on the forums, show us your build and ask questions: [[https://docs.google.com/document/d/1NidizfnrUlMdpoob8cxGYLlP9Pt9y-u-Z_eImV1MtcI/edit | Frequently Asked Questions]]
+8. Get involved on the forums, show us your build and ask questions: [https://docs.google.com/document/d/1NidizfnrUlMdpoob8cxGYLlP9Pt9y-u-Z_eImV1MtcI/edit Frequently Asked Questions]
 
 9. [[MVP_Hacking |Hacking the MVP]] (Python code architecture)
   * Brain
@@ -67,27 +67,29 @@ When in doubt: **Follow the written documentation as it is updated to current BO
   * [[mvp_1.0_UI | User Interface]]
  
 ===== Additional Help =====
-  * [[https://github.com/webbhm/OpenAg-MVP-II#assumptions | code in Github]]
+  * [https://github.com/futureag/mvp | code in Github]
   * [[MVP Web Access]]
   * [[MVP_Debugging | Testing and Debugging]]
-  * [[https://forum.openag.media.mit.edu/t/difficulty-with-mvp-system-test-si7021-failure/3104?u=webb.peter | Difficulty With MVP Hardware & Software]]
-  * [[http://forum.openag.media.mit.edu/t/mvp-product-design/1893 | MVP - Product Design Thread]]
-  * [[http://forum.openag.media.mit.edu/t/300-food-computer/2343 | $300 Food Computer Thread]]
-  * [[http://forum.openag.media.mit.edu/t/networking-mvps-to-simplify-firewall-issues/2305?u=webb.peter | Networking MVPs to solve for Firewall Issues]]
-  * [[http://forum.openag.media.mit.edu/t/troubleshooting-mvp-build/2384 | Troubleshooting MVP Build Thread]]
-  * [[http://forum.openag.media.mit.edu/t/libraries-food-computers-plix-build-public-library-innovation-exchange-at-mit-media-lab/2895?u=webb.peter | Akron Public Library]]
-  * [[https://forum.openag.media.mit.edu/t/is-there-a-way-to-integrate-greenhouse-and-food-computers/3146?u=webb.peter | Food Computer Greenhouse Integration]]
-  * [[https://forum.openag.media.mit.edu/t/brooklyn-update-replicating-pfcs/2474 | Brooklyn MVP at AgTechX using Open Agriculture Supply's pre-assembled "MVP Power Strip"]]
-  * [[https://forum.openag.media.mit.edu/t/mvp-dashboard-in-nodered/3172 | MVP UI Development]] - Node-Red implementation as beta test for UI development.
-  * [[https://forum.openag.media.mit.edu/t/mvp-build-in-the-six/3366?u=webb.peter | MVP Build in the Six]]
+  * [https://forum.openag.media.mit.edu/t/difficulty-with-mvp-system-test-si7021-failure/3104?u=webb.peter Difficulty With MVP Hardware & Software]
+  * [http://forum.openag.media.mit.edu/t/mvp-product-design/1893 MVP - Product Design Thread]
+  * [http://forum.openag.media.mit.edu/t/300-food-computer/2343 $300 Food Computer Thread]
+  * [http://forum.openag.media.mit.edu/t/networking-mvps-to-simplify-firewall-issues/2305?u=webb.peter Networking MVPs to solve for Firewall Issues]
+  * [http://forum.openag.media.mit.edu/t/troubleshooting-mvp-build/2384 Troubleshooting MVP Build Thread]
+  * [http://forum.openag.media.mit.edu/t/libraries-food-computers-plix-build-public-library-innovation-exchange-at-mit-media-lab/2895?u=webb.peter Akron Public Library]
+  * [https://forum.openag.media.mit.edu/t/is-there-a-way-to-integrate-greenhouse-and-food-computers/3146?u=webb.peter Food Computer Greenhouse Integration]
+  * [https://forum.openag.media.mit.edu/t/brooklyn-update-replicating-pfcs/2474 Brooklyn MVP at AgTechX using Open Agriculture Supply's pre-assembled "MVP Power Strip"]
+  * [https://forum.openag.media.mit.edu/t/mvp-dashboard-in-nodered/3172 MVP UI Development] - Node-Red implementation as beta test for UI development.
+  * [https://forum.openag.media.mit.edu/t/mvp-build-in-the-six/3366?u=webb.peter MVP Build in the Six]
 ===== Alternate Builds and Materials =====
 These builds are not the standard MVP, but alternative designs from the community. Listings here are for information without any implied recommendation or evaluation.
-  * [[https://wiki.openag.media.mit.edu/contributors/webbhm | MVP V1 Build Instructions]] using a cardboard box and mylar liner
-  * [[https://www.openagriculturesupply.com/product-page/open-agriculture-supply-mvp-food-computer-kit |"MVP Power Strip"]] - Open Agriculture Supply pre-assembled kit based on MVP.
-  * [[contributors:yusuf:mvp_pfc | Yusuf's MVP PFC Outline]].
-  * [[http://forum.openag.media.mit.edu/t/300-mvp-food-computer-variant-my-build/2687 | Food Rack]] - Another nice design.  An expansion of the MVP into a multi-reservoir rack system.
-  * [[https://forum.openag.media.mit.edu/t/mvp-alpha-release-bill-of-materials/2019/3 | Alpha release of MVP]] Early release prior to finishing design.
+  * [h ttps://wiki.openag.media.mit.edu/contributors/webbhm MVP V1 Build Instructions] using a cardboard box and mylar liner
+  * [https://www.openagriculturesupply.com/product-page/open-agriculture-supply-mvp-food-computer-kit"MVP Power Strip"] - Open Agriculture Supply pre-assembled kit based on MVP.
+  * [contributors:yusuf:mvp_pfc Yusuf's MVP PFC Outline].
+  *[http://forum.openag.media.mit.edu/t/300-mvp-food-computer-variant-my-build/2687 Food Rack] - Another nice design.  An expansion of the MVP into a multi-reservoir rack system.
+  * [https://forum.openag.media.mit.edu/t/mvp-alpha-release-bill-of-materials/2019/3 Alpha release of MVP] Early release prior to finishing design.
 ===== MVPs in Schools =====
-  * [[https://forum.openag.media.mit.edu/t/growing-plants-in-space-marsfarm-curriculum/3056 | MARSfarm Curriculum.]]
-  * [[https://forum.openag.media.mit.edu/c/education | Food Computers in Education]]
-  * [[https://wiki.openag.media.mit.edu/education | Classroom Resources on OpenAg EDU Wiki]]
+  * [https://forum.openag.media.mit.edu/t/growing-plants-in-space-marsfarm-curriculum/3056 MARSfarm Curriculum.]
+  * [https://forum.openag.media.mit.edu/c/education Food Computers in Education]
+  * [https://wiki.openag.media.mit.edu/education Classroom Resources on OpenAg EDU Wiki]
+====MVP and MarsFarm in the News====
+  * [http://news.stlpublicradio.org/post/st-louis-startup-marsfarm-works-students-build-computers-grow-food#stream/0 St Louis Public Radio]
