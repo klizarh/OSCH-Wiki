@@ -7,9 +7,9 @@ The MVP PFC (Minimal Viable Product) is a minimalist [[food_computer_2:getting_s
 For a quick overview, see the [https://www.youtube.com/watch?v=yGGVXu1yMfQ&feature=youtu.be promo video]
 
 The OpenAg community's goal is to build something for around $300 (US) that can produce significant research results with minimal investment and skill.  The MVP PFC allows for control and research around:
-  Nutrients
-  Light (photoperiod)
-  Temperature
+* Nutrients
+* Light (photoperiod)
+* Temperature
 
 The MVP PFC has the following main parts:
 ===== Enclosure =====
