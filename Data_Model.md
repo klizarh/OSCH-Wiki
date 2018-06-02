@@ -17,7 +17,7 @@ The long term value of MVP data will likely not be the individual observations, 
 ## Design and Patterns
 Besides the traditional discipline of relational data modeling (Normalizing), the two big influences on my design philosophy have been Peter Coad's modeling patterns, and insights from Business Process Modeling.  You will also find similarities with Data Warehouse star modeling.  All of these sources see the 'heart' of the model being an activity (something associated with a data).  Associated with this data are the 'who', 'what', 'where', 'when' (the date) and status of the activity.
 * Who is the participant, the person or thing performing the event
-* What covers the subject and related attributes
+* What covers the [subject](https://github.com/futureag/blog/wiki/Data-Model:-Subject) and related attributes
 * Where is the location of the activity
 * Status indicated if the activity finished successfully, failed, or was canceled.  Status often has more detailed parts such as a qualifier (why it failed), and optionally comments.
 
