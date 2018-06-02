@@ -61,7 +61,8 @@ When in doubt: **Follow the written documentation as it is updated to current BO
 * Brain
 * Reservoir
 * [[mvp_1.0_UI | User Interface]]
-* [[Glossary | Glossary]]
+
+== [[Glossary | Glossary]] ==
  
 == Additional Help ==
 * [https://github.com/futureag/mvp code in Github]
