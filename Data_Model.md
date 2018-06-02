@@ -12,7 +12,8 @@ Administrative data is used to track how efficiently things are going.  How long
 
 Analytic data is the 'heart' of the MVP.  This is primarily the phenotypic data, looking at how one growth cycle improves or worsens the plants (ie. which fertilizer gives the fastest growth, best flavor, ...).
 
-The long term value of MVP data will likely not be the individual observations, but summary data aggregated at the end of a growth cycle.
+## Goal
+The long term value of MVP data will likely [not be the individual observatoins](https://github.com/futureag/blog/wiki/Data-Model:-Goal), but summary data aggregated at the end of a growth cycle.
 
 ## Design and Patterns
 Besides the traditional discipline of relational data modeling (Normalizing), the two big influences on my design philosophy have been Peter Coad's modeling patterns, and insights from Business Process Modeling.  You will also find similarities with Data Warehouse star modeling.  All of these sources see the 'heart' of the model being an activity (something associated with a data).  Associated with this data are the 'who', 'what', 'where', 'when' (the date) and status of the activity.
