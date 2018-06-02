@@ -8,7 +8,7 @@ Data is normally used in three ways:
 
 Operational data is needed to 'run the business': control the lights and temperature and make sure the MVP is doing what it is suppose to do.  If the operations go correctly, the operational data has little long term value; other than confirming that the recipe was followed correctly.
 
-Administrative data is used to track how efficiently things are going.  How long did a process take, who made the most observations, tracking drifts in sensors.  Administrative reporting is usually performed over a period of time, or comparing one growth cycle with another.
+Administrative data is used to track how efficiently things are going.  How long did a process take, who made the most observations, what is the most common cause of germination failure, is the failure rate of a sensor increasing?  Administrative reporting is usually performed over a period of time, or comparing one growth cycle with another.
 
 Analytic data is the 'heart' of the MVP.  This is primarily the phenotypic data, looking at how one growth cycle improves or worsens the plants (ie. which fertilizer gives the fastest growth, best flavor, ...).
 
