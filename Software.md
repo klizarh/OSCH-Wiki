@@ -8,9 +8,9 @@ The MVP code currently consists of three main parts:
 * Scripts (/home/pi/MVP/scripts): these package the Python code for group operations, and provide separation between the controller and functions.
 * Code (/home/pi/MVP/python): most actions are executed through Python code files.  This code represents sensors, controllers, utilities (data handling,logging, ...) and reporting.
 
-[Code Style Guide](https://github.com/futureag/blog/wiki/Software_Standards)
+## [Code Style Guide](https://github.com/futureag/blog/wiki/Software_Standards)
 
-[Code Organization](https://github.com/futureag/blog/wiki/Code-Organization) - how the MVP code is set up.
+## [Code Organization](https://github.com/futureag/blog/wiki/Code-Organization) - how the MVP code is set up.
 
 ## Releases
 * V1
