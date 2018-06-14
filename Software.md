@@ -17,7 +17,7 @@ The MVP code currently consists of three main parts:
 * V2.1
 * V3
 
-## [[Data_Model | Data Model]]
+## [Data_Model](https://github.com/futureag/blog/wiki/Data_Model)
 
 ## [User Interface](https://github.com/futureag/blog/wiki/MVP_UI)
 
