@@ -33,6 +33,8 @@ The current system is hydroponic, the reservoir is a bus tub with an air-pump an
 
 ==[[Software | Software]]==
 
+==[[https://github.com/futureag/blog/wiki/MVP_Data | Data]]==
+
 == Resources ==
 Check out our promo video for a quick summary of how to get started
 
