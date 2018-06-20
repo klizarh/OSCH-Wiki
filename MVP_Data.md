@@ -2,7 +2,7 @@
 For some people, data is a part of the boring details; but next to growing plants, data is the heart of the MVP - it is what has value in the long term and what can be shared with others.
 
 There are several 'flavors' to the data:
-## [Data_Model |Data Model]
+## [[Data_Model |Data Model]]
 The theoretical, semantic design of what things are and how they are related.  If you really want to understand why the data structures are the way they are, dig into the model, otherwise continue to the more practical stuff.
 
 ## [[MVP_Data_Structures | Storage and Message Structures]]
