@@ -81,6 +81,9 @@ When in doubt: **Follow the written documentation as it is updated to current BO
 * [https://forum.openag.media.mit.edu/t/mvp-dashboard-in-nodered/3172 MVP UI Development] - Node-Red implementation as beta test for UI development.
 * [https://forum.openag.media.mit.edu/t/mvp-build-in-the-six/3366?u=webb.peter MVP Build in the Six]
 
+== [[MVP_Add_On | Add On]] ==
+Options you can add to the MVP that are not part of the core build; additional sensors, a web server and more
+
 == Alternate Builds and Materials ==
 These builds are not the standard MVP, but alternative designs from the community. Listings here are for information without any implied recommendation or evaluation.
 * [https://wiki.openag.media.mit.edu/contributors/webbhm MVP V1 Build Instructions] using a cardboard box and mylar liner
