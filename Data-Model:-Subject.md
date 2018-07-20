@@ -1,6 +1,11 @@
 ## The sensor is not the subject.
 When I started modeling the MVP data, I initially was recording the 'SI7021 temperature', the name of the sensor and the attribute I was collecting. This seemed simple and easy until I explored Fairchild Garden's data, and started doing some report queries.  Fairchild was not using sensors, all measurements were manually done by students, from thermometer temperature readings to plant size and weight - there were no 'sensors' to which one could attach the measurement.  My test MVP also presented challenges when I installed five different temperature sensors, one SI7021 and four DS18B20, three were in different areas of the chamber, one was outside for 'ambient' temperature, and one was in the reservoir water.  For one report I wanted to show all the temperature readings, but at times I wanted only the canopy air temperature.  While knowing the name of the sensor is needed for maintenace and hardware analysis, normally I found I really wanted to now about the environment (canopy air temperature). 
 
+## Main Subjects
+* Environmental Subjects
+** Air
+** Water/Nutrient
+* Plant (and sub-parts)
 ## Semantics and Ontology
 
 I keep going back to Barry Smith’s definition that a measurement records an attribute of a substance. The substance is the ‘thing’ of interest: plant, air, water. It seems obvious, but can get complicated. There is a constellation of information here that gets jumbled together, all parts are needed, but they are easy to confuse. The constellation consists of the subject, where it is located (discriminator when there are multiple potential subjects) and the instrument used to capture the measurement.
