@@ -3,8 +3,8 @@ When I started modeling the MVP data, I initially was recording the 'SI7021 temp
 
 ## Main Subjects
 * Environmental Subjects
-** Air
-** Water/Nutrient
+  * Air
+  * Water/Nutrient
 * Plant (and sub-parts)
 ## Semantics and Ontology
 
