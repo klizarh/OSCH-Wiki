@@ -22,6 +22,12 @@ Besides the traditional discipline of relational data modeling (Normalizing), th
 * Where is the location of the activity
 * Status indicated if the activity finished successfully, failed, or was canceled.  Status often has more detailed parts such as a qualifier (why it failed), and optionally comments.
 
+## Main Entities
+* [Location](https://github.com/futureag/blog/wiki/Data-Model:-Location)
+* [Activity Types](https://github.com/futureag/blog/wiki/Data-Model:-Activity-Type)
+* [Participant](https://github.com/futureag/blog/wiki/Data-Model:-Participant)
+* [Subject](https://github.com/futureag/blog/wiki/Data-Model:-Subject)
+
 ## Environment Observation Data Model
 Environmental observations are measurements about the environment, the context of the plants: temperature, humidity, lights, etc.  These are captured by the participant, which is usually a sensor, but may be done by a person.
 ![Phenotype Observation](https://github.com/futureag/blog/blob/master/static/images/Environment_Observation.png)
