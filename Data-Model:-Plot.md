@@ -13,6 +13,8 @@ With the MVP model, a plot is defined as a well of the reservoir, and I have equ
 
 This model was challenged by Fairchild, where plants are grown on 'pillows' containing growing medium and slow release fertilizer, as well as the plant seed.  A growth chamber could have different numbers of plots at different times.  To them, it seems the identifier is primarily associated with the plant, and secondarly with the 'pot' or 'location'.
 
+Technically there is a distinction between a plot and a 'plot usage'.  If a plot is a well of the reservoir, this is a permanent identifier of a location for the life of the MVP.  The 'plot usage' is the temporal function of the well for a particular experiment, ie the well may have a different plant with different treatments in each experiment.  Thus the experiment_id and plot_id identify this temporal 'plot usage'.  An individual plant is associated with this 'plot usage', and technically not directly to the plot.  Entities with three primary keys are problematic (experiment, pot/plot/location and plant), as the combination of any two keys often reveal such 'hidden entities'.  This is further complicated when a plot id (or experiment and plot id) are equivocated with the plant.
+
 ## Conclusion
 This is a difficult space to model and will need some discussion.
 The MVP models plot as a location, and assumes there is one plant per plot.  The 'holes' are given an identifier (1 through 5) and these identifiers are re-used from experiment to experiment.  Plot_Id, Experiment_Id and Field_Id (the box) are a universal unique identifier.
