@@ -23,10 +23,13 @@ Besides the traditional discipline of relational data modeling (Normalizing), th
 * Status indicated if the activity finished successfully, failed, or was canceled.  Status often has more detailed parts such as a qualifier (why it failed), and optionally comments.
 
 ## Main Entities
-* [Location](https://github.com/futureag/blog/wiki/Data-Model:-Location)
 * [Activity Types](https://github.com/futureag/blog/wiki/Data-Model:-Activity-Type)
 * [Participant](https://github.com/futureag/blog/wiki/Data-Model:-Participant)
 * [Subject](https://github.com/futureag/blog/wiki/Data-Model:-Subject)
+* [Location](https://github.com/futureag/blog/wiki/Data-Model:-Location)
+* Attribute
+* Value
+* Status
 
 ## Environment Observation Data Model
 Environmental observations are measurements about the environment, the context of the plants: temperature, humidity, lights, etc.  These are captured by the participant, which is usually a sensor, but may be done by a person.
