@@ -1,0 +1,9 @@
+# Plot
+Plot is a term I use to identify where a plant is grown.  In agriculture field trials, a field is often divided up into 10x20 foot areas, where each area is dedicated to a specific plant type (genome).  A plot is treated with the same agronomic practices (watering, fertilizer, light), and having the same genetics it should have a consistent phenotype expression.  In an experiement, plots are compared against each other in analysis.  In other contexts (like a greenhouse) a plot may be an individual pot with a single plant.  The key thing about a plot is it has consistent genetics and treatment.
+
+A plot may be a location in a field, but it may not be associated with a defined location.  A plot of plants may be a collection of plants randomly distributed within the growth chamber.
+
+Originally I considered the MVP box to be a single plot, but looking at how Fairchild grew things, I realized that this model was too simplistic.  Fairchild grew plants on individual 'pillows' of planting medium, and different pillows could have different concentrations of slow release fertilizer.  In one box, there could be multiple pillows, each with a different plant.  I realized that if all the pillows were the same, and had the same variety of plant, that the box would be a single plot; but it was also possible for each pillow/plant to be entirely different in which case each would have to be considered a separate plot.
+
+## Conclusion
+Each individual pot/hole/pillow in the box needs a separate identifier and location reference.  A plot is a collection of one or more of these individuals having the same genetics and agronomics.  An experiment is a collection of one or more plots.
