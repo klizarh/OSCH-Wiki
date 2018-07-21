@@ -12,4 +12,4 @@ There are a lot of similar data conversion issues when doing analytics:
 This sort of stuff in necessary, and may be captured and stored as part of a analytic package, but we should not have it in the common database, or as a part of the summary data.
 
 ## Conclusion
-I propose that we come up with a convention where the "Participant" is not a person or the sensor, but somehow identified as the deriving algorythm.  This could be as simple as using "Derived" as the participant, and noting the function in the documentation; or by having the participant be a url to the function (in github).
+I propose that we come up with a convention where either (or both) the "Participant" is not a person or the sensor, but somehow identified as the deriving algorythm, and the Activity type is "Analytics" or some other name.  This could be as simple as using "Derived" as the participant, and noting the function in the documentation; or by having the participant be a url to the function (in github).
