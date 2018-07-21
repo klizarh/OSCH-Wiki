@@ -27,6 +27,7 @@ Besides the traditional discipline of relational data modeling (Normalizing), th
 * [Subject](https://github.com/futureag/blog/wiki/Data-Model:-Subject)
 * [Attribute](https://github.com/futureag/blog/wiki/Data-Model:-Attribute)
 * [Value](https://github.com/futureag/blog/wiki/Data-Model:-Value)
+* [Units](https://github.com/futureag/blog/wiki/Data-Model:-Attribute-Value)
 * [Participant](https://github.com/futureag/blog/wiki/Data-Model:-Participant)
 * [Location](https://github.com/futureag/blog/wiki/Data-Model:-Location)
 * [Status](https://github.com/futureag/blog/wiki/Data-Model:-Status)
