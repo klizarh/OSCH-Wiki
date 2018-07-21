@@ -44,5 +44,10 @@ These are measurements about the plant, or parts of the plant.  These include he
 ![Participant](https://github.com/futureag/blog/blob/master/static/images/Participant.png)
 ## Administrative
 ![Administrative](https://github.com/futureag/blog/blob/master/static/images/Admin.png)
+
 ## Agronomic Activity Data Model
 These are the events of planting seeds, treatments (adding water, fertilizer, etc) and harvesting.
+
+## Issues
+* [Derived Data](https://github.com/futureag/blog/wiki/Data-Model:-Derived-Data)
+* [Compound Terms](https://github.com/futureag/blog/wiki/Data-Model:-Compound-Terms)
