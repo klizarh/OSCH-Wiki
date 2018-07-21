@@ -1,1 +1,8 @@
 # Protocol
+Protocol is a category of meta-data, it is data about other data.  A protocol usually tells you how to do something:  how to take a temperature reading, how to mix Jack's 20-20 fertilizer, how to plant lettuce.  Protocols can be very simple ("Look in the box and see if the lights are on"), or very complex with multiple parts (the recipe for growing a plant).
+Where and how to record protocol is a judgment call.  Some things are so simple they hardly need to be stated, while others may require long user manuals or video instructions.  The protocol for aircraft maintenance can require special training and have numerous software programs for diagnosis and repair.
+Protocols are written for different users.  We generally think of protocols for people to read and follow.  Fairchild Gardens has done a good job of writing up simple protocols for measuring plant size, these are written documents with picture, not something that can be put in the database as meta-data.
+Protocols for plant recipes need to be understandable by a person, but also understandable by a growth chamber, "Recipe" needs to be parsable data which a Python program can convert into instructions for running the MVP (ie how to convert a target temperature into ventilation fan control, or PAR into instructions for turning the lights on and off).
+
+## Primary Protocols
+* [Recipe](https://github.com/futureag/blog/wiki/Data-Model:-Recipe)
