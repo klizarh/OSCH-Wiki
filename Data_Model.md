@@ -52,3 +52,4 @@ These are the events of planting seeds, treatments (adding water, fertilizer, et
 * [Mass Objects](https://github.com/futureag/blog/wiki/Data-Model:-Mass-Objects)
 * [Derived Data](https://github.com/futureag/blog/wiki/Data-Model:-Derived-Data)
 * [Compound Terms](https://github.com/futureag/blog/wiki/Data-Model:-Compound-Terms)
+* [Parts](https://github.com/futureag/blog/wiki/Data-Model:-Plant-parts-and-sub-parts)
