@@ -1,6 +1,8 @@
 # Plot
 A plot is a collection of plants growing in a location (the current MVP definition)
 
+![Field Plot](https://github.com/futureag/blog/blob/master/static/images/Plot.jpg)
+
 In agriculture field trials, a field is often divided up into 10x20 foot areas, where each area is dedicated to a specific plant type (genome).  A plot is treated with the same agronomic practices (watering, fertilizer, light), and having the same genetics it should have a consistent phenotype expression.  In other contexts (like a greenhouse) a plot may be an individual pot with a single plant.  The key thing about a plot is it has consistent genetics and treatment.
 
 There are several problems here:
