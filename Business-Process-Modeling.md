@@ -6,6 +6,7 @@ Business processes focus on events, something that happens at a specific time or
 * Where
 * How
 
+![Activity Pattern](https://github.com/futureag/blog/blob/master/static/images/Activity.jpg)
 This pattern holds true in almost any context, from selling groceries, manufacturing goods, baseball games or growing plants.  This pattern also applies to many different levels, the pattern is 'fractal'.  For a grocery store this is as small as recording the individual item scans at the check-out, the sales transaction or store sales over a period of time (day, week, year).  For a baseball game this is the individual hits and strikes, a time at bat, an inning, a game or a whole season.  For growing plants this is the individual environment measurement (air temperature) or plant measurement (leaf color), as well as growth stages (germination, vegetative growth, flowering) and agronomic activities (planting, harvesting, watering).  This also summarizes up to cover the a whole growth cycle (a trial or experiment) from start to finish.
 
 Who can take several forms.  There is the "who" that is the subject of the action, and the "who" that participates in making it happen.  The subject could be a plant, a plant part (leaf), or part of the environment (air, water, light).  The participant is usually who performed the action, which could be a person taking a measurement, or a sensor taking a reading.
