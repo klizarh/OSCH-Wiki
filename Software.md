@@ -15,4 +15,4 @@ The MVP code currently consists of three main parts:
 
 ## [Coding Standards](https://github.com/futureag/blog/wiki/Software_Standards)
 
-## [[Data_Model | Data Model]]
+## [Data_Model](https://github.com/futureag/blog/wiki/Data_Model)
