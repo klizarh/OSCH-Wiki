@@ -17,21 +17,24 @@ There are currently four patterns of data structures:
 
 
 ## Environmental Observations
-The scope is the whole box. The activity is an observation about something in the environment. These cover sensor readings of the environment (Air temperature, CO2 concentration).  These records do not apply to any individual plant, but to the whole environment.  The subject of these records have an additional location attribute - so you can tell the difference between the temperature at the top of the chamber, and the temperature in the leaf canopy.
+The scope is the whole box. The activity is the process of observing and recording something about the environment. These cover sensor readings of the environment (Air temperature, CO2 concentration).  These records do not apply to any individual plant, but to the whole environment.  The subject of these records have an additional location attribute - so you can tell the difference between the temperature at the top of the chamber, and the temperature in the leaf canopy.
 The structure of the Environmental Observations is also used for Device State records (whether the lights are on or off).
 
 ## State Change
-The scope is the whole box.  The activity is something done to an actuator: turn lights on, turn fan off.
+The scope is the whole box.  The activity is a device (actuator) reporting a change in its state: turn lights on, turn fan off.
 
 ## Phenotype Observations
-The scope is an individual plant.  This is the valuable information that is needed for analytics, it tells us how well we grew the plants and how they respond to the environment.  These records have an experiment id associated with them.
+The scope is an individual plant.  The activity is the observing and recording something about the plant.  This is the valuable information that is needed for analytics, it tells us how well we grew the plants and how they respond to the environment.  These records have an experiment id associated with them.
 In addition to records about the plants (height, width, weight).
 
 ## Agronomic Activity
-The scope is a trial, a group of plants.  The activity is an action done to the plant or the substrate (soil or reservoir).  Examples are actions like planting, watering, pruning or harvest.
+The scope is a trial, a group of plants.  This is a set of sub-activities, actions done to the plants or the substrate (soil or reservoir).  Examples are actions like planting, watering, pruning or harvest.
 
 ## Trial
 A trial is the high level event that encompasses all the above activities from its start to finish.
+
+## Experiment
+An experiment is not recorded in the database (at this time) as it is not something done with the MVP, but something done with the data created out of running trials.  It is the activity of performing analytics, comparing two or more trial results against each other.
 
 ## Example Records
 ### Environmental Observation - csv format
