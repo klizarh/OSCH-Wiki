@@ -1,0 +1,1 @@
+[CouchDB](http://couchdb.apache.org/), an no-SQL database, is the data storage tool used by the MVP.
