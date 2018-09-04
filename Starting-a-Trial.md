@@ -1,0 +1,3 @@
+## Starting a Trial
+An experiment is an analysis activity, the comparing of results from a control against the data from a test.  Thus an experiment is something done after all the growing is finished, and could actually be done by someone who has never grown anything (ie. comparing data from other people's activities).  Thus, the process of controlled growth is somehting I call a trial.  A trial is the controlled growth of of one or more plants under the same conditions (genetics, light, temperature, nutrients, etc.).
+A trial is associated with a recipe, the description of what is to be grown (the plant), and the instructions on how to grow it (light, temperature, nutrients, etc.)
