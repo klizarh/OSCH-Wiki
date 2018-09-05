@@ -48,7 +48,7 @@ Add activity_type, timestamp, and expand out the location information.  The user
 
 > 'activity_type':'Agronomic_Activity'
 
-> 'location':{'field':uuid, 'experiment':uuid, 'trial':uuid}
+> 'location':{'field':uuid, 'trial':uuid}
 
 Select the sub-activity name (Planting, Harvest, Treatment):
 
@@ -76,7 +76,7 @@ Add activity_type, timestamp, and expand out the location information.  The user
 
 > 'activity_type':'Phenotype_Observation'
 
-> 'location':{'field':uuid, 'experiment':uuid, 'trial_id':uuid, 'plot_id':1}
+> 'location':{'field':uuid, 'trial_id':uuid, 'plot_id':1}
 
 Select the subject name, this will usually be 'Plant':
 
