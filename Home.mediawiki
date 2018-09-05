@@ -34,9 +34,9 @@ The current system is hydroponic, the reservoir is a bus tub with an air-pump an
 ==Processes==
 * [[Starting-a-Trial | Starting a Trial (Experiment)]]
 * [[MVP_Data_Entry | Data Entry]]
-* [[MVP_Env_Obsv_Entry | Environment Observation]]
-* [[MVP_Agro_Act_Entry | Agronomic Activity]]
-* [[MVP_PHeno_Obsv_Entry | Phenotype Observation]]
+** Environment Observation
+** Agronomic Activity
+** Phenotype Observation
 
 
 ==[[Software | Software]]==
