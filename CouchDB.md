@@ -1,3 +1,5 @@
+## [[Couch_Demo | Demo Database documentation]]
+
 [CouchDB](http://couchdb.apache.org/), an no-SQL database, is the data storage tool used by the MVP; both on the Raspberry Pi and in the Cloud.  If you are use to a SQL relational database, Couch can take a bit of work to get your head around it; but once you get it working, it is easy to use and quite robust, and comes with a built in Soap Rest API.
 
 CouchDB stores data as document files.  We are using [JSON structured files](https://github.com/futureag/blog/wiki/Storage-and-Message-Structures).
