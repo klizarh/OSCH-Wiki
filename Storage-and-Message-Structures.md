@@ -156,3 +156,35 @@ Agronomic Activity variation
 
 
 ### Phenotype Observation - JSON format
+{
+ "_id": "7dea0fbf14174980b1b936b775396418",
+ "_rev": "1-67a391bb83e4a8bb21693ad803226103",
+ "status": {
+  "status": "Complete",
+  "status_qualifier": "Success"
+ },
+ "participant": {
+  "type": "person",
+  "name": "hmw"
+ },
+ "field": {
+  "uuid": "8e89e414-0181-440a-9170-702434c8f400"
+ },
+ "location": {
+  "field": "8e89e414-0181-440a-9170-702434c8f400",
+  "plot": "1",
+  "trial": "1"
+ },
+ "activity_type": "Phenotype_Observation",
+ "start_date": {
+  "timestamp": "01/14/18 12:00 AM"
+ },
+ "subject": {
+  "attribute": {
+   "units": "",
+   "name": "Germination",
+   "value": "TRUE"
+  },
+  "name": "Plant"
+ }
+}
