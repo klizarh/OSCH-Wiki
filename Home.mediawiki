@@ -41,6 +41,8 @@ The current system is hydroponic, the reservoir is a bus tub with an air-pump an
 
 ==[[Software | Software]]==
 
+==[[Debugging | Debugging ]]==
+
 ==[[MVP_Data | Data]]==
 
 == Resources ==
