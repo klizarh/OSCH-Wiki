@@ -69,5 +69,6 @@ Try right mouse clicking on the chart file, the open it with 'Chrome Web Browser
 You can also try double-clicking on index.html to display it, and see if you are getting the same data.
 Finally try: 
 > localhost:8000
+
 If you don't see the same data, clear the file cache in your browser.  Chrome often has old files 'sticking' in the cache and will not display the latest.  This is in part an issue with the MVP, because we use a static web page (index.html) and the browser doesn't realize that the embedded files have changed.
 
