@@ -1,4 +1,4 @@
-## Debugging FAQ##
+## Debugging FAQ ##
 * SI7021
 * CouchDB
 * Chart Display
