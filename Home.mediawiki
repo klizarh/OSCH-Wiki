@@ -109,3 +109,5 @@ These builds are not the standard MVP, but alternative designs from the communit
 
 ==MVP and MarsFarm in the News==
 * [http://news.stlpublicradio.org/post/st-louis-startup-marsfarm-works-students-build-computers-grow-food#stream/0 St Louis Public Radio]
+
+= [[Shroom Farm | Shroom Farm]] =
