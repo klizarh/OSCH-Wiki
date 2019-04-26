@@ -1,5 +1,6 @@
 # Shroom Farm
 The Shroom Farm is a mushroom fruiting box.  It uses most of the same code as the NerdFarm,  with a few additions and changes.  Since the CO2 sesor (SCD30) was introduced, we thought we should put it to a meaningful use; the sensor is tied via a controller to a small fan, to regulate the CO2 levels in the box.
+![Shroom Farm](https://github.com/futureag/blog/blob/master/static/images/ShroomFarm.jpg)
 
 ## Basic Design
 The Shroom Farm replaces the NerdFarm enclosure with a smaller plant tray and plastic dome.  Like the NerdFarm there is a Raspberry Pi brain, one sensor (SCD30), a relay, two fans and a humidifier.  There are no lights, and mushrooms need little light for fruiting.
