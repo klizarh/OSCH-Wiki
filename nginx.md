@@ -9,7 +9,7 @@ sudo apt-get install certbot python-certbot-nginx -t stretch-backports
 
 It is likely that the certbot install will fail with a message that the release is not available.  See [here[(https://backports.debian.org/Instructions/) for instructions and the reason why.  The summary of what to do:
 
-sudo leafpad /etc/apat/sources.list
+sudo leafpad /etc/apt/sources.list
 
 Add the following line to the end of the file:
 
