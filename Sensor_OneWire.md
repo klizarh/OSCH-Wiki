@@ -3,6 +3,7 @@
 ## Description
 OneWire is a special protocol used by numerous devices.  The NerdFarm is using the OneWire temperature probes (DS18B20), which are cheap and waterproof.
 Data is not read directly, but the underlying modprobe application reads the sensors and writes data to files.  Our programs read the files.
+This is not a part of the standard NerdFarm, so the software may not be setup, and you may need to modify LogSensorsExtra.py to get it logging.
 
 ## Setup
 OneWire used modprobe (part of the standard intallation), but requires some custom file modification to get it to work.  You need to edit /boot/config.txt (sudo leafpad /boot/config.txt), and add the following line to the end of the file:
