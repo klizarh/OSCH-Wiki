@@ -1,12 +1,24 @@
-## Architecture
+# Architecture
 Software is in two parts:
 * Code running locally on the MVP's Raspberry Pi
 * User Interface (UI) code running on the cloud server
 
 These pages are about the custom MVP code.  For generic information about packages, see the following:
-### Database and data storage
+## Sensors
+### Standard Sensors
+* [SI7021](Sensor:SI7021) Temperature/Humidity
+* [TSL2561](Sensor:TSL2561) LUX sensor
+### Optional Sensors
+* [CCS811](Sensor:CCS811) CO2 Sensor
+* [NDIR](Sensor:NDIR) CO2 Sensor
+* [OneWire](Sensor:OneWire) OneWire Temperature sensors
+* [SCD30](Sensor:SCD30) CO2 Sensor
+### Other
+* [ADS1115](Sensor:ADS1115) Analog to Digital Converter
+
+## Database and data storage
 * [CouchDB](couch_db) The database for storing data
-### Access from the web
+## Access from the web
 * [DDNS](ddns) Getting a stable address on the web
 * [NGINX](nginx) Securing your presence on the web
 
