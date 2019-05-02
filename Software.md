@@ -6,15 +6,15 @@ Software is in two parts:
 These pages are about the custom MVP code.  For generic information about packages, see the following:
 ## Sensors
 ### Standard Sensors
-* [SI7021](Sensor:SI7021) Temperature/Humidity
-* [TSL2561](Sensor:TSL2561) LUX sensor
+* [SI7021](Sensor_SI7021) Temperature/Humidity
+* [TSL2561](Sensor_TSL2561) LUX sensor
 ### Optional Sensors
-* [CCS811](Sensor:CCS811) CO2 Sensor
-* [NDIR](Sensor:NDIR) CO2 Sensor
-* [OneWire](Sensor:OneWire) OneWire Temperature sensors
-* [SCD30](Sensor:SCD30) CO2 Sensor
+* [CCS811](Sensor_CCS811) CO2 Sensor
+* [NDIR](Sensor_NDIR) CO2 Sensor
+* [OneWire](Sensor_OneWire) OneWire Temperature sensors
+* [SCD30](Sensor_SCD30) CO2 Sensor
 ### Other
-* [ADS1115](Sensor:ADS1115) Analog to Digital Converter
+* [ADS1115](Sensor_ADS1115) Analog to Digital Converter
 
 ## Database and data storage
 * [CouchDB](couch_db) The database for storing data
