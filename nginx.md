@@ -41,3 +41,8 @@ and type in the following:
 If you edit the configuration file, simply run the following from a command prompt to refresh the system
 
 sudo systemctl restart nginx.service
+
+## Enabling websites
+NGINX is being used as a proxy server.  It handles security and reverse proxies calls to other servers that handle the html (the individual Raspberry Pi server that has the web pagea at /home/pi/MVP/web)
+
+Edit the configuration file /etc/nginx/sites-enabled to add the locations of your websites.  See the nginx documentation for details.
