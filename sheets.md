@@ -1,0 +1,2 @@
+# Google Sheets
+Google Sheets are a cloud spreadsheet with a Python API.  It is possible to create a sheet (in Google Drive) that can have data pushed to it from the MVP. Being similar to Excel, it is then possible to manipulate the data and build charts and dashboards.
