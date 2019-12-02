@@ -1,0 +1,2 @@
+# [Flask](https://www.palletsprojects.com/p/flask/)
+This is a framework (mostly Python) for building forms.  These can be used for data entry or to call python services on your device (ie turning GPIO pins on and off).
