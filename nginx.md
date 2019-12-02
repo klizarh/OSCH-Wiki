@@ -45,6 +45,6 @@ sudo systemctl restart nginx.service
 ## Enabling websites
 NGINX is being used as a proxy server.  It handles security and reverse proxies calls to other servers that handle the html (the individual Raspberry Pi server that has the web pagea at /home/pi/MVP/web)
 
-Edit the configuration file /etc/nginx/sites-enabled to add the locations of your websites.  See the nginx documentation for details.
+Edit the configuration file /etc/nginx/sites-enabled/default to add the locations of your websites.  See the nginx documentation for details.
 
 The default html page for nginx is /var/www/html/index.nginx-debian.html (or where you specified in the config file.
