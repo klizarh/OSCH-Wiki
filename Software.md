@@ -18,10 +18,11 @@ These pages are about the custom MVP code.  For generic information about packag
 
 ## Database and data storage
 * [CouchDB](couch_db) The database for storing data
-## Access from the web
+## [Web Server](Web_Server) - Access from the web 
 * [DDNS](ddns) Getting a stable address on the web
 * [NGINX](nginx) Securing your presence on the web
 
+## Code Architecture
 The MVP code currently consists of three main parts:
 * Controller (currently the Linux CRON process): control the timing of events
 * Scripts (/home/pi/MVP/scripts): these package the Python code for group operations, and provide separation between the controller and functions.
