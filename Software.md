@@ -18,6 +18,7 @@ These pages are about the custom MVP code.  For generic information about packag
 
 ## Database and data storage
 * [CouchDB](couch_db) The database for storing data
+* [Google Sheets](Google_Sheets) - Using Google Sheets as a database (and charting)
 ## [Web Server](Web_Server) - Access from the web 
 * [DDNS](ddns) Getting a stable address on the web
 * [NGINX](nginx) Securing your presence on the web
